@@ -1,0 +1,171 @@
+a {
+  margin: 0px 6px;
+  text-decoration: none;
+}
+body {
+  margin: 2px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+.center {
+  position: absolute;
+  top: 35%;
+  left: 48%;
+  font-size: 110px;
+  font-style: italic;
+  transform: translate(-50%, -50%);
+  color: #000000ad;
+}
+.centered {
+  position: absolute;
+  top: 16%;
+  left: 47%;
+  font-size: 40px;
+  transform: translate(-50%, -50%);
+  color: #739e858e;
+}
+.content {
+  display: none;
+}
+.content.reveal {
+  display: block;
+}
+.COMPUTER2 {
+  display: none;
+}
+.COMPUTER2.reveal {
+  display: block;
+}
+.ELECTRICAL2 {
+  display: none;
+}
+.ELECTRICAL2.reveal {
+  display: block;
+}
+.ELECTRONICS2 {
+  display: none;
+}
+.ELECTRONICS2.reveal {
+  display: block;
+}
+.CIVIL2 {
+  display: none;
+}
+.CIVIL2.reveal {
+  display: block;
+}
+.MECHANICAL2 {
+  display: none;
+}
+.MECHANICAL2.reveal {
+  display: block;
+}
+.COMPUTER3 {
+  display: none;
+}
+.COMPUTER3.reveal {
+  display: block;
+}
+.ELECTRICAL3 {
+  display: none;
+}
+.ELECTRICAL3.reveal {
+  display: block;
+}
+.ELECTRONICS3 {
+  display: none;
+}
+.ELECTRONICS3.reveal {
+  display: block;
+}
+.CIVIL3 {
+  display: none;
+}
+.CIVIL3.reveal {
+  display: block;
+}
+.MECHANICAL3 {
+  display: none;
+}
+.MECHANICAL3.reveal {
+  display: block;
+}
+.COMPUTER4 {
+  display: none;
+}
+.COMPUTER4.reveal {
+  display: block;
+}
+.ELECTRICAL4 {
+  display: none;
+}
+.ELECTRICAL4.reveal {
+  display: block;
+}
+.ELECTRONICS4 {
+  display: none;
+}
+.ELECTRONICS4.reveal {
+  display: block;
+}
+.CIVIL4 {
+  display: none;
+}
+.CIVIL4.reveal {
+  display: block;
+}
+.MECHANICAL4 {
+  display: none;
+}
+.MECHANICAL4.reveal {
+  display: block;
+}
+#in {
+  max-width: 15%;
+  max-height: 15%;
+  margin: 0px;
+}
+#mail {
+  max-width: 5px;
+  max-height: 5px;
+  margin: 0px;
+}
+.contacts {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+.tab {
+  border-bottom: blue;
+}
