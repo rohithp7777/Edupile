@@ -2,14 +2,54 @@ a {
   margin: 0px 6px;
   text-decoration: none;
 }
-body {
-  margin: 2px;
+html,body {
+  height: 100%;
+  border: 1.5px solid #000000ad;
+}
+.page-content {
+  font-size: 20px;
+  line-height: 30px;
 }
 .container {
   position: relative;
   text-align: center;
   color: white;
 }
+.footer {
+  background: black;
+  color: white;
+  height: 250px;
+  position: relative;
+  border-top: 3px solid rgb(194, 194, 194);
+}
+
+.footer-bottom {
+  background-color: rgb(0, 0, 0);
+  color: azure;
+  height: 25px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 50px;
+  
+}
+
+/*.footer.footer-content {
+  border-right: 5px solid rgb(255, 255, 255);
+  height: 350px;
+}
+*/
+.footer.footer-sectiion-links {
+  left: 10px;
+  top: 50px;
+  width: 100%;
+  border-right: 8px solid rgb(255, 255, 255);
+  color: rgb(53, 242, 255);
+
+}
+
 
 .bottom-left {
   position: absolute;
@@ -168,4 +208,5 @@ body {
 }
 .tab {
   border-bottom: blue;
+  min-height: 100%;
 }
